@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@font-face {
+  font-family: "Miama";
+  src: url("../assets/fonts/Miama.ttf") format("truetype");
+}
+
+.miama-font {
+  font-size: 6.125rem; /* 98px */
+  font-family: "Miama", sans-serif; /* Apply Miama font */
+}
+.centerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  /* line-height: 1px; */
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(37, 33, 33, 0.527) 100%
+  );
+  height: 715px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+nav h1 {
+  color: rgba(230, 83, 60, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 2.25rem; /* 36px */
+  font-weight: 800;
+}
+
+nav ul {
+  border: 0.5px solid black;
+  display: flex;
+  flex-direction: row;
+
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 39px;
+  width: 465px;
+}
+nav ul li {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li button {
+  border: none;
+  background: none;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  color: white;
+  padding: 4px;
+}
+.Special-btn {
+  position: static;
+  width: 92px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px 8px 20px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-radius: 46px;
+  background: none;
+
+  background: rgb(230, 83, 60);
+}
+
+/*  */
+/* Banner DIV */
+/*  */
+
+.bannerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.bannerInfo {
+  width: 520px;
+  height: 440px;
+  margin-left: 0px;
+}
+.bannerInfo h1 {
+  font-size: 4.875rem; /* 78px */
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.bannerP {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.bannerDiv button {
+  /* Button */
+  position: static;
+  width: 224px;
+  height: 54px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 2.5rem; /* 16px 40px */
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 14px;
+  border-radius: 42px;
+
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem; /* 18px */
+}
+.colorBg {
+  border: none;
+  background: rgb(230, 83, 60);
+}
+.nonColorBg {
+  background: none;
+  border: 1px solid black;
+}
+.secondDivBanner {
+  width: 349px;
+
+  height: 580px;
+}
+
+.secondDivBanner {
+  margin-left: 50px;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.redCircle {
+  width: 40px;
+  height: 40px;
+  left: 787px;
+  top: 584px;
+  background: rgb(230, 83, 60);
+  border-radius: 40px;
+}
+.miniCard1 {
+  width: 193px;
+  height: 98px;
+  position: absolute;
+  left: 230px;
+  top: 125px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  /* padding-left: 10px; */
+  flex-direction: column;
+  line-height: 0px;
+}
+.miniCard1 h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem; /* 40px */
+  line-height: 0px;
+}
+.miniCard1 p {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 0.8125rem; /* 13px */
+  font-weight: 400;
+  line-height: 1.25rem; /* 20px */
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.miniCard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 206px;
+  height: 96px;
+
+  position: absolute;
+  font-family: "Inter", sans-serif;
+
+  top: 421px;
+  right: 256px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.miniCard2 h1 {
+  color: white;
+}
+.miniCard2 p {
+  color: rgba(239, 237, 232, 0.65);
+}
+
+/* Habbit section */
+
+.habbitsSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+.habbitsDiv {
+  /* height: 452px; */
+  width: 1044px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.habbitsDiv h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem; /* 48px */
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.habbitsDiv p {
+  width: 671px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+}
+.imgDivInfo {
+  width: 231px;
+  /* height: 274px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.imgDivInfo img {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+}
+
+.imgDivInfo h2 {
+  color: white;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  text-align: center;
+  font-family: "inter", sans-serif;
+}
+.imgDivInfo p {
+  color: white;
+  width: 231px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+.addVersSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addVers {
+  position: static;
+  width: 1060px;
+  height: 371px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 62px 0px;
+  border-radius: 18px;
+
+  background: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.addVersDiv1 {
+  width: 443px;
+  padding: 40px;
+  /* height: ; */
+}
+
+.addVers h2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem; /* 48px */
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 300px;
+}
+.addVers p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.addVers button {
+  position: static;
+  width: 224px;
+  height: 54px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  line-height: 1.375rem; /* 22px */
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 2.5rem; /* 16px 40px */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 34px 0px;
+  border-radius: 42px;
+
+  background: rgb(230, 83, 60);
+}
+
+.addVers div img {
+  transform: scale(2.2) translateX(-29px) translateY(30px);
+  border-radius: 18px;
+
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+}
+
+/*  */
+/* New Section to show grids */
+/*  */
+
+.trExDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1060px;
+  border: 1px solid green;
+}
+.trExDiv h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem; /* 48px */
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.trExDiv p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 400;
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.trExDiv div {
+  border: 1px solid red;
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: repeat(3, 300px);
+}
+
+.trExDiv1 {
+  width: 200px;
+}
