@@ -6,8 +6,10 @@
     <title>Fitness</title>
 
     <link rel="stylesheet" href="./styles/Header/header-style.css">
+    <link rel="stylesheet" href="./styles/Header/header-resstyle.css">
     <link rel="stylesheet" href="./styles/Footer/footer.css">
     <link rel="stylesheet" href="./styles/Footer/footerResponsive.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
     <style>
         body {
             background-color: black;
@@ -24,21 +26,27 @@
             </div>
             <div class="navDiv2">
                 <ul>
-                    <li><button type="button" class="Special-btn">Home</button></li>
-                    <li><button type="button">Service</button></li>
-                    <li><button type="button">Contact</button></li>
-                    <li><button type="button" style="margin: 0px;">About</button></li>
+                    <li><button type="button" class="Special-btn desktopHide">Home</button></li>
+                    <li><button type="button" class=desktopHide">Service</button></li>
+                    <li><button type="button" class=desktopHide">Contact</button></li>
+                    <li><button type="button" class="desktopHide" style="margin: 0px;">About</button></li>
+
+
                 </ul>
+
+            </div>
+            <div class="miniHide">
+                <button type="button" class="miniHide">djf</button>
             </div>
         </nav>
         <div class="bannerDiv">
             <div class="bannerInfo">
-                <h1> Get body in <span class="miama-font">shape</span> & stay healthy</h1>
+                <h1> Get body in <br><span class="miama-font">shape</span> & stay <br>healthy</h1>
                 <p class="bannerP">A huge selection of health and fitness content, healthy recipes and transformation
                     stories to help
                     you get fit and stay
                     fit!</p>
-                <div style="display: flex;justify-content: flex-start;">
+                <div class="bannerDivButtons">
                     <button type="button" class="colorBg">Join Club Now!</button>
                     <button type="button" class="nonColorBg">Download App</button>
                 </div>

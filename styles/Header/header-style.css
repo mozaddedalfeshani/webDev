@@ -1,5 +1,12 @@
-.body {
-  margin: 0px;
+/* import section  */
+@font-face {
+  font-family: "Miama";
+  src: url("../../assets/fonts/Miama.ttf") format("truetype");
+}
+
+.miama-font {
+  font-size: 8.125rem; /* 98px */
+  font-family: "Miama", sans-serif; /* Apply Miama font */
 }
 
 /*  */
@@ -10,14 +17,19 @@ header {
   height: auto;
   background-image: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.144),
-    rgba(85, 71, 71, 0.753)
+    rgba(0, 0, 0, 0.527),
+    rgba(128, 128, 128, 0.616),
+    rgba(0, 0, 0, 0.425)
   );
 }
 
 /*  */
 /* Nav Section */
 /*  */
+
+.miniHide {
+  display: none;
+}
 nav {
   display: flex;
   align-items: center;
@@ -75,4 +87,125 @@ nav ul li button {
   background: none;
 
   background: rgb(230, 83, 60);
+}
+
+/* Full Div work */
+.bannerDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* First div work */
+.bannerInfo {
+  font-family: "inter", sans-serif;
+}
+.bannerInfo h1 {
+  font-size: 4.875rem;
+  line-height: 1;
+  color: white;
+}
+.bannerP {
+  width: 450px;
+  font-size: 1rem;
+}
+
+.bannerDivButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bannerDivButtons button {
+  width: 224px;
+  height: 54px;
+  /* Auto layout */
+  display: flex;
+
+  padding: 1rem 2.5rem;
+
+  border-radius: 42px;
+
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem; /* 18px */
+}
+.colorBg {
+  border: none;
+  background: rgb(230, 83, 60);
+}
+.nonColorBg {
+  background: none;
+  border: 1px solid black;
+}
+/* second Div work */
+.redCircle {
+  width: 40px;
+  height: 40px;
+  left: 787px;
+  top: 584px;
+  background-image: url("../../assets/icon/play.png");
+  border-radius: 40px;
+  background-size: cover;
+}
+.secondDivBanner {
+  position: relative;
+}
+.miniCard1 {
+  width: 193px;
+  height: 98px;
+  position: absolute;
+  left: 190px;
+  top: 70px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  /* padding-left: 10px; */
+  flex-direction: column;
+  line-height: 0px;
+}
+.miniCard1 h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem; /* 40px */
+  line-height: 0px;
+}
+.miniCard1 p {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "Inter", sans-serif;
+  font-size: 0.8125rem; /* 13px */
+  font-weight: 400;
+  line-height: 1.25rem; /* 20px */
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.miniCard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 96px;
+
+  position: absolute;
+  font-family: "Inter", sans-serif;
+
+  top: 421px;
+  right: 256px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.miniCard2 h1 {
+  color: white;
+}
+.miniCard2 p {
+  color: rgba(239, 237, 232, 0.65);
 }
