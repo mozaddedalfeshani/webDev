@@ -1,0 +1,102 @@
+@media screen and (max-width: 576px) {
+  .addVersSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .addVersSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addVers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background: rgb(34, 34, 34);
+    border-radius: 30px;
+    padding: 30px;
+    width: 80%;
+    /* height: 371px; */
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .addVersDiv1 {
+    /* height: auto; */
+    /* border: 1px solid re/d; */
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    border-radius: 18px;
+    /* height: ; */
+  }
+
+  .addVersDiv2 {
+    /* height: auto; */
+    /* border: 1px solid red; */
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 18px;
+    /* height: ; */
+  }
+
+  .addVersDiv1 h2 {
+    color: white;
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+  }
+  .addVers p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 400;
+    line-height: 1.5rem; /* 24px */
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  .addVers button {
+    position: static;
+    width: 224px;
+    height: 54px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.125rem; /* 18px */
+    font-weight: 600;
+    line-height: 1.375rem; /* 22px */
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 2.5rem; /* 16px 40px */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 34px 0px;
+    border-radius: 42px;
+
+    background: rgb(230, 83, 60);
+  }
+
+  .addVers div img {
+    transform: scale(1.6) translateY(38px);
+    border-radius: 18px;
+
+    /* width: 366px;
+    height: 312px; */
+    border-radius: 18px;
+  }
+}
