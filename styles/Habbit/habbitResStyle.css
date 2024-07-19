@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+  .habbitsDiv {
+    position: relative;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .images p {
+    text-align: center;
+  }
+  .habbitsDiv h3 {
+    text-align: center;
+    /* line-height: px; */
+    font-size: 3.625rem;
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  .habbitsDiv .ph3 {
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+
+    color: rgba(255, 255, 255, 0.425);
+    font-family: "Inter", sans-serif;
+  }
+}
