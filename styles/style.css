@@ -434,31 +434,39 @@ nav ul li button {
 
 .gridDiv {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 401px;
+  grid-template-columns: repeat(12, 1fr);
+  /* height: 451px; */
   max-width: 1060px;
   width: 100%;
 }
-
+.trExDiv1 {
+  grid-column: span 3;
+}
 .trExDiv2 {
-  grid-column: span 2;
+  grid-column: span 6;
 }
-.trExDiv4 {
-  grid-column: span 2;
-}
-.trExdiv2 {
-  grid-column: span 2;
+.trExDiv3 {
+  grid-column: span 3;
+  background-position-x: -40px;
 }
 
-.trExdiv4 {
-  grid-column: span 2;
+.trExDiv4 {
+  grid-column: span 5;
+}
+.trExDiv5 {
+  grid-column: span 3;
+  background-position-x: -25px;
+  transform: scale(12.2), translateX(12px);
+}
+.trExDiv6 {
+  grid-column: span 4;
 }
 
 .gridDiv > div {
   font-family: "inter", sans-serif;
   position: relative;
   width: auto;
-  height: 201px;
+  height: 250px;
 }
 
 /* .gridDiv img {
@@ -469,8 +477,8 @@ nav ul li button {
 .trExDiv1 {
   background-image: linear-gradient(
       0deg,
-      rgba(255, 0, 0, 0.281),
-      rgba(255, 255, 255, 0.192)
+      rgba(0, 195, 255, 0.438),
+      rgba(0, 255, 255, 0.315)
     ),
     url("../assets/images/exercise1.jpg");
   background-size: cover;
@@ -480,38 +488,58 @@ nav ul li button {
   background-size: cover;
 }
 .trExDiv2 {
-  background-image: url("../assets/images/exercise2.png");
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.356),
+      rgba(255, 0, 0, 0.233)
+    ),
+    url("../assets/images/exercise2.png");
   overflow: hidden;
-  /* width: auto;
-  height: 201px; */
+
   background-size: cover;
 }
 .trExDiv3 {
-  background-image: url("../assets/images/exercise3.png");
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.39),
+      rgba(0, 0, 0, 0.349)
+    ),
+    url("../assets/images/exercise3.png");
   overflow: hidden;
-  /* width: 400px;
-  height: 201px; */
+
   background-size: cover;
 }
 .trExDiv4 {
-  background-image: url("../assets/images/exercise4.png");
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.384),
+      rgba(0, 0, 0, 0.452)
+    ),
+    url("../assets/images/exercise4.png");
   overflow: hidden;
-  /* width: 400px;
-  height: 201px; */
+
   background-size: cover;
 }
 .trExDiv5 {
-  background-image: url("../assets/images/exercise5.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(51, 255, 0, 0.301),
+      rgba(81, 255, 0, 0.438)
+    ),
+    url("../assets/images/exercise5.jpg");
   overflow: hidden;
-  /* width: 400px;
-  height: 201px; */
+
   background-size: cover;
 }
 .trExDiv6 {
-  background-image: url("../assets/images/exercise6.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 247, 255, 0.349),
+      rgba(0, 217, 255, 0.281)
+    ),
+    url("../assets/images/exercise6.jpg");
   overflow: hidden;
-  /* width: 400px;
-  height: 201px; */
+
   background-size: cover;
 }
 
