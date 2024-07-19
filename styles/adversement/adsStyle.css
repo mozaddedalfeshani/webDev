@@ -7,14 +7,15 @@
 .addVers {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   background: rgb(34, 34, 34);
   border-radius: 30px;
-  padding: 10px;
+  padding: 30px;
   max-width: 1066px;
   height: 371px;
+
   overflow: hidden;
 }
 .addVersDiv1 {
@@ -26,7 +27,9 @@
 .addVersDiv1 h2 {
   color: white;
   font-family: "Inter", sans-serif;
-  font-weight: 300;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4.44rem;
 }
 .addVers p {
   color: rgba(255, 255, 255, 0.5);
@@ -36,6 +39,7 @@
   line-height: 1.5rem; /* 24px */
   letter-spacing: 0.3px;
   text-align: left;
+  width: 400px;
 }
 .addVers button {
   position: static;
@@ -64,7 +68,10 @@
 
   background: rgb(230, 83, 60);
 }
-
+.addVersDiv2 {
+  overflow: hidden;
+  border-radius: 19px;
+}
 .addVers div img {
   background-size: cover;
   transform: scale(2.9) translateX(-39px) translateY(35px);
