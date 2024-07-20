@@ -19,7 +19,8 @@
   .habbitsDiv h3 {
     text-align: center;
 
-    font-size: 3.625rem;
+    font-size: 48px;
+    text-wrap: pretty;
     color: white;
     font-family: "Inter", sans-serif;
   }
