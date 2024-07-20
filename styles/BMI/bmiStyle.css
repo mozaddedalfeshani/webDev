@@ -84,7 +84,7 @@ input::placeholder {
   color: rgb(255, 255, 255);
   font-family: "Inter", sans-serif;
   border: none;
-  width: 45%;
+  width: 35%;
 }
 #sexSelect,
 #sexSelect::placeholder {
@@ -92,7 +92,7 @@ input::placeholder {
   margin: 5px;
   border-radius: 5px;
   padding: 10px;
-  width: 48%;
+  width: 37%;
   height: 60px;
   border-radius: 15px;
   padding-right: 50px;
@@ -104,7 +104,7 @@ input::placeholder {
   margin: 5px;
   border-radius: 5px;
   padding: 10px;
-  width: 98%;
+  width: 75%;
   height: 60px;
   border-radius: 15px;
   padding-right: 50px;
