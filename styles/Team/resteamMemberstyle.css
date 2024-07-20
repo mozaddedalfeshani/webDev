@@ -1,0 +1,82 @@
+@media screen and (max-width: 576px) {
+  .teamMembers h1 {
+    padding-top: 50px;
+    color: white;
+    font-size: 3rem;
+    line-height: 0px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+  }
+  .teamMembers p {
+    color: rgba(255, 255, 255, 0.514);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  .memberinfoDiv1 {
+    display: none;
+  }
+  .memberinfoDiv2 {
+    background-image: url("../../assets/images/Trainer2.png");
+
+    background-size: cover;
+  }
+  .memberinfoDiv3 {
+    background-image: url("../../assets/images/Trainer5.png");
+
+    background-size: cover;
+  }
+  .memberinfoDiv4 {
+    display: none;
+  }
+  .memberinfoDiv5 {
+    background-image: url("../../assets/images/Trainer3.png");
+
+    background-size: cover;
+  }
+  .memberinfoDiv6 {
+    background-size: cover;
+    background-image: url("../../assets/images/trainer6.png");
+  }
+
+  .teamMembers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .teamMemberList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .teamMemberList .memberinfoDiv {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rebeccapurple;
+    border-radius: 30px;
+    padding: 10px;
+    background-repeat: no-repeat;
+  }
+  .overlayName {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+  }
+  .memberinfoDiv h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 0px;
+  }
+  .memberinfoDiv p {
+    color: grey;
+    font-family: "Inter", sans-serif;
+  }
+}
