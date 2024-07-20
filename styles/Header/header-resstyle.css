@@ -10,29 +10,35 @@
       rgba(128, 128, 128, 0.616),
       rgba(0, 0, 0, 0.425)
     );
-    .navDiv2 {
-      display: none;
-    }
-    .miniHide {
-      display: block;
-    }
-    .miniHide img {
-      width: 32px;
-      background-size: cover;
-      
-    }
+    position: relatives;
+  }
+  .navDiv2 {
+    display: none;
+  }
+  .miniHide {
+    position: relative;
+    display: block;
+    background-color: black;
+    background-size: contain;
+  }
+  .miniHide img {
+    width: 32px;
+    background-size: cover;
+  }
+  .miniHide button {
+    border: none;
+  }
 
-    /* Full Div work */
-    .bannerDiv {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .bannerP {
-      width: 430px;
-      font-size: 2rem;
-      text-align: start;
-    }
+  /* Full Div work */
+  .bannerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerP {
+    width: 430px;
+    font-size: 2rem;
+    text-align: start;
   }
 }
