@@ -1,10 +1,17 @@
 @media screen and (max-width: 576px) {
+  .trExDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+  }
   .gridDiv {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     /* height: 451px; */
-    max-width: 90%;
-    width: 100%;
+    border: 1px solid red;
+    width: 90%;
   }
   .trExDiv p {
     color: rgba(255, 255, 255, 0.5);

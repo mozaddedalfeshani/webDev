@@ -1,0 +1,136 @@
+@media screen and (max-width: 576px) {
+  .bmiTitleSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .bmiTitleDiv p {
+    font-family: "inter", sans-serif;
+    font-size: 1rem;
+    color: grey;
+    text-align: start;
+    line-height: 1.2rem;
+    letter-spacing: 0.9px;
+    max-width: 500px;
+  }
+
+  .bmiDiv1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .bmiDiv1 table {
+    text-align: start;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 0px;
+  }
+  .bmiInputsection {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .bmiDiv1 h1 {
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+  }
+
+  .bmiDiv1 table {
+    text-align: start;
+    width: auto;
+    border: 1px solid black;
+  }
+  .bmiDiv1 table tro {
+    border: 1px solid black;
+  }
+
+  .bmiDiv1 table tr > td {
+    padding: 0.125rem;
+    border: 0.5px solid black;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    font-size: 1.525rem;
+  }
+
+  .bmiDiv2 {
+    position: relative;
+    width: 100%;
+  }
+
+  .bmiDiv2 h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    color: white;
+  }
+  .bmiDiv2 p {
+    color: rgba(0, 0, 0, 0.685);
+    font-family: "Inter", sans-serif;
+    font-size: 1.275rem;
+    padding-left: 10px;
+  }
+  .bmiDiv2 input {
+    background-color: rgba(90, 78, 78, 0.288);
+  }
+  .bmiDiv2 input,
+  input::placeholder {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    border: none;
+    width: 40%;
+  }
+  #sexSelect {
+    background-color: rgba(95, 92, 92, 0.644);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 43%;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+  }
+  #Selectfactor,
+  #Selectfactor::placeholder {
+    background-color: rgba(95, 92, 92, 0.644);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 89%;
+    padding-right: 50px;
+    color: rgba(255, 255, 255, 0.712);
+  }
+  .bmiDiv2 button {
+    position: static;
+    width: 50%;
+    height: 50px;
+    font-weight: 400;
+    color: white;
+    font-family: "Inter", Roboto, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 46px;
+    background: none;
+
+    background: rgb(230, 83, 60);
+  }
+}

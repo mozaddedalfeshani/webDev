@@ -16,6 +16,11 @@
     .miniHide {
       display: block;
     }
+    .miniHide img {
+      width: 32px;
+      background-size: cover;
+      
+    }
 
     /* Full Div work */
     .bannerDiv {

@@ -117,7 +117,7 @@ nav ul li button {
 .bannerDivButtons button {
   width: 224px;
   height: 54px;
-  /* Auto layout */
+
   display: flex;
 
   padding: 1rem 2.5rem;
@@ -126,7 +126,7 @@ nav ul li button {
 
   color: white;
   font-family: "Inter", sans-serif;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
 }
 .colorBg {
   border: none;
