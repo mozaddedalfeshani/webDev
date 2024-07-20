@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     /* height: 451px; */
-    border: 1px solid red;
+
     width: 90%;
   }
   .trExDiv p {
