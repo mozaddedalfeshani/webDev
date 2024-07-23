@@ -53,13 +53,21 @@
   .mobileList {
     position: absolute;
     top: 100px;
-    left: 100px;
-    width: auto;
-    border-radius: auto;
+    left: 150px;
+    width: 200px;
+    border-radius: 25px;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.61);
+  }
+  .mobileList h3 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 0px;
   }
   .mobileList ul {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,5 +85,10 @@
     border: none;
     color: white;
     background: none;
+  }
+  nav ul {
+    width: 200px;
+    /* border: 1px solid red; */
+    border: none;
   }
 }
