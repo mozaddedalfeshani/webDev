@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
   body {
     margin: 0px;
+    width: 100%;
   }
   header {
     height: auto;
@@ -11,6 +12,7 @@
       rgba(0, 0, 0, 0.425)
     );
     position: relatives;
+    width: auto;
   }
   .navDiv2 {
     display: none;
@@ -28,7 +30,9 @@
   .miniHide button {
     border: none;
   }
-
+  .nav ul {
+    border: none;
+  }
   /* Full Div work */
   .bannerDiv {
     display: flex;
@@ -40,5 +44,38 @@
     width: 430px;
     font-size: 2rem;
     text-align: start;
+  }
+
+  nav:hover .mobileList {
+    border: none;
+    display: block;
+  }
+  .mobileList {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: auto;
+    border-radius: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.432);
+  }
+  .mobileList ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .mobileList li {
+    list-style: none;
+    text-align: center;
+
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+  .mobileList li button {
+    border: none;
+    color: white;
+    background: none;
   }
 }

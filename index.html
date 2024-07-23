@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="./styles/Header/header-style.css">
     <link rel="stylesheet" href="./styles/Header/header-resstyle.css">
+    <link rel="stylesheet" href="./styles/Header/tab_header.css">
+
     <link rel="stylesheet" href="./styles/Footer/footer.css">
     <link rel="stylesheet" href="./styles/Footer/footerResponsive.css">
 
@@ -31,7 +33,12 @@
     <link rel="stylesheet" href="./styles/Team/teamMemberStyle.css">
     <link rel="stylesheet" href="./styles/Team/resteamMemberstyle.css">
     <!-- <link rel="stylesheet" href="styles/main.css"> -->
-
+    <script>
+        function callme() {
+            print("heelo");
+            alert("Hello");
+        }
+    </script>
     <style>
         body {
             background-color: black;
@@ -49,21 +56,47 @@
             </div>
             <div class="navDiv2">
                 <ul>
-                    <li><button type="button" class="Special-btn desktopHide">Home</button></li>
-                    <li><button type="button" class=desktopHide">Service</button></li>
-                    <li><button type="button" class=desktopHide">Contact</button></li>
-                    <li><button type="button" class="desktopHide" style="margin: 0px;">About</button></li>
+                    <a>
+                        <li><button type="button" class="Special-btn desktopHide">Home</button></li>
+                    </a>
+                    <a>
+                        <li><button type="button" class=desktopHide">Service</button></li>
+                    </a>
+                    <a>
+                        <li><button type="button" class=desktopHide">Contact</button></li>
+                    </a>
+                    <a>
+                        <li><button type="button" class="desktopHide" style="margin: 0px;">About</button></li>
+                    </a>
 
 
                 </ul>
 
             </div>
             <div class="miniHide">
-                <button type="button" class="miniHide">
-                    <img src="./assets/icon/menu.png"></button>
+                <button type="button" class="miniHide"></button>
+                <img id="miniHideFlow" src="./assets/icon/menu.png">
+                </button>
 
             </div>
+            <div class="mobileList">
+                <ul>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Service</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#bottom">
+                        <li>About</li>
+                    </a>
+                </ul>
+            </div>
         </nav>
+
 
         <div class="bannerDiv">
             <div class="bannerInfo">
@@ -316,7 +349,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="bottom">
         <section class="footerSection">
             <div class="footerDiv1">
                 <p class="footerTitle">Fitness</p>

@@ -16,6 +16,6 @@ to open source fitness based website github repo</p>
 ## Inspect mode on choromium , view instruction
 
 - For <b>Desktop</b> and Ipad pro rotated view set, window<br>
-  > 1366x1024
+  > 1366x1024 (83%)
 - For mobile view , set window
-  > width: 576
+  > width: 576 (100%)
