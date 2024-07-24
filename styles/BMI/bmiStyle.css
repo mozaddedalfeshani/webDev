@@ -29,7 +29,7 @@
 .bmiTitleDiv h1 {
   font-family: "Inter", sans-serif;
   font-size: 4rem;
-  line-height: 0px;
+
   text-align: start;
   font-family: "inter", sans-serif;
 }
@@ -37,7 +37,7 @@
 .bmiTitleDiv p {
   font-family: "inter", sans-serif;
   font-size: 1rem;
-  color: grey;
+  color: rgba(255, 255, 255, 0.507);
   text-align: start;
   font-family: "inter", sans-serif;
   line-height: 1rem;

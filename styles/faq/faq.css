@@ -5,7 +5,20 @@
 
         .faqSection {
             border-radius: 10px;
-            background-color: rgba(255, 255, 255, 0.158);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+        }
+
+        .faqDiv {
+            background-color: rgb(255, 255, 255, .5);
+            width: auto;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 500px;
         }
 
         h1 {
@@ -21,7 +34,7 @@
 
         details {
             margin-bottom: 1rem;
-            color: rgba(255, 252, 252, 0.411);
+            color: rgba(255, 252, 252, 0.363);
         }
 
         summary {
@@ -32,11 +45,11 @@
 
         summary:focus {
             outline: none;
-            color: white;
+            /* color: rgba(255, 255, 255, 0.411); */
         }
 
         details[open] summary {
-            background-color: #eee;
+            background-color: rgba(238, 238, 238, 0.5);
         }
 
         p {

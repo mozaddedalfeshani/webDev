@@ -2,7 +2,7 @@
 @media screen and (max-width: 576px) {
   body {
     margin: 0px;
-    width: 100%;
+    padding: 0px;
   }
 
   header {
@@ -12,7 +12,7 @@
         rgba(128, 128, 128, 0.616),
         rgba(0, 0, 0, 0.425));
     position: relatives;
-    width: auto;
+    width: 100%;
   }
 
   .navDiv2 {

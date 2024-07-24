@@ -122,6 +122,7 @@ nav ul li button {
 .bannerP {
   width: 450px;
   font-size: 1rem;
+
   color: rgb(255, 255, 255, 0.5);
 }
 
@@ -169,6 +170,11 @@ nav ul li button {
 
 .secondDivBanner {
   position: relative;
+}
+
+.secondDivBanner img {
+  height: 580px;
+
 }
 
 .miniCard1 {
