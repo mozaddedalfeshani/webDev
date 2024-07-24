@@ -16,10 +16,15 @@
 /*  */
 /* Overall Header Section */
 /*  */
+body {
+  margin: 0px;
+  padding: 0px;
+}
 
 header {
+  width: 100%;
   height: auto;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.479), rgba(119, 119, 119, 0.493) 100%);
 }
 
 /*  */
@@ -111,11 +116,13 @@ nav ul li button {
   font-size: 4.875rem;
   line-height: 1;
   color: white;
+  text-align: left;
 }
 
 .bannerP {
   width: 450px;
   font-size: 1rem;
+  color: rgb(255, 255, 255, 0.5);
 }
 
 .bannerDivButtons {
