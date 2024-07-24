@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @media screen and (max-width: 576px) {
   .addVersSection {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .addVersSection {
     display: flex;
     flex-direction: column;
@@ -26,6 +28,7 @@
     overflow: hidden;
     position: relative;
   }
+
   .addVersDiv1 {
     /* height: auto; */
     /* border: 1px solid re/d; */
@@ -55,15 +58,19 @@
     font-weight: 900;
     font-family: "Inter", sans-serif;
   }
+
   .addVers p {
     color: rgba(255, 255, 255, 0.5);
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem; /* 14px */
+    font-size: 1.5rem;
+    /* 14px */
     font-weight: 100;
-    line-height: 2.7rem; /* 24px */
+    line-height: 2.7rem;
+    /* 24px */
     letter-spacing: 0.3px;
     text-align: left;
   }
+
   .addVers button {
     position: static;
     width: 100%;
@@ -73,16 +80,19 @@
     font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
 
-    font-size: 2rem; /* 18px */
+    font-size: 2rem;
+    /* 18px */
     font-weight: 600;
-    line-height: 1.375rem; /* 22px */
+    line-height: 1.375rem;
+    /* 22px */
     letter-spacing: 0px;
     text-align: left;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2.5rem; /* 16px 40px */
+    padding: 1rem 2.5rem;
+    /* 16px 40px */
 
     flex: none;
     order: 1;

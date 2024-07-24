@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 .habbitsDiv {
   display: flex;
   flex-direction: column;
@@ -11,6 +13,7 @@
   color: white;
   font-family: "Inter", sans-serif;
 }
+
 .habbitsDiv .ph3 {
   text-align: center;
   line-height: 1px;
@@ -19,12 +22,14 @@
   color: rgba(255, 255, 255, 0.425);
   font-family: "Inter", sans-serif;
 }
+
 .images {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 40px;
 }
+
 .imgDivInfo {
   width: 231px;
   /* height: 274px; */
@@ -35,6 +40,7 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .imgDivInfo img {
   height: 180px;
   width: 180px;
@@ -43,11 +49,13 @@
 
 .imgDivInfo h2 {
   color: white;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
+  /* 18px */
   font-weight: 600;
   text-align: center;
   font-family: "inter", sans-serif;
 }
+
 .imgDivInfo p {
   color: white;
   width: 231px;

@@ -1,24 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 .trExDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .trExDiv h1 {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 3rem; /* 48px */
+  font-size: 3rem;
+  /* 48px */
   font-weight: 900;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
 }
+
 .trExDiv p {
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
-  font-size: 0.875rem; /* 14px */
+  font-size: 0.875rem;
+  /* 14px */
   font-weight: 400;
-  line-height: 1.5rem; /* 24px */
+  line-height: 1.5rem;
+  /* 24px */
   letter-spacing: 0.3px;
   text-align: left;
 }
@@ -30,12 +37,15 @@
   max-width: 1060px;
   width: 100%;
 }
+
 .trExDiv1 {
   grid-column: span 3;
 }
+
 .trExDiv2 {
   grid-column: span 6;
 }
+
 .trExDiv3 {
   grid-column: span 3;
   background-position-x: -40px;
@@ -44,16 +54,18 @@
 .trExDiv4 {
   grid-column: span 5;
 }
+
 .trExDiv5 {
   grid-column: span 3;
   background-position-x: -25px;
   transform: scale(12.2), translateX(12px);
 }
+
 .trExDiv6 {
   grid-column: span 4;
 }
 
-.gridDiv > div {
+.gridDiv>div {
   font-family: "inter", sans-serif;
   position: relative;
   width: auto;
@@ -66,11 +78,9 @@
 } */
 
 .trExDiv1 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 195, 255, 0.438),
-      rgba(0, 255, 255, 0.315)
-    ),
+      rgba(0, 255, 255, 0.315)),
     url("../../assets/images/exercise1.jpg");
   background-size: cover;
   overflow: hidden;
@@ -78,56 +88,51 @@
   height: 201px; */
   background-size: cover;
 }
+
 .trExDiv2 {
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(255, 0, 0, 0.356),
-      rgba(255, 0, 0, 0.233)
-    ),
+      rgba(255, 0, 0, 0.233)),
     url("../../assets/images/exercise2.png");
   overflow: hidden;
 
   background-size: cover;
 }
+
 .trExDiv3 {
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(0, 0, 0, 0.39),
-      rgba(0, 0, 0, 0.349)
-    ),
+      rgba(0, 0, 0, 0.349)),
     url("../../assets/images/exercise3.png");
   overflow: hidden;
 
   background-size: cover;
 }
+
 .trExDiv4 {
-  background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       rgba(0, 0, 0, 0.384),
-      rgba(0, 0, 0, 0.452)
-    ),
+      rgba(0, 0, 0, 0.452)),
     url("../../assets/images/exercise4.png");
   overflow: hidden;
 
   background-size: cover;
 }
+
 .trExDiv5 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(51, 255, 0, 0.301),
-      rgba(81, 255, 0, 0.438)
-    ),
+      rgba(81, 255, 0, 0.438)),
     url("../../assets/images/exercise5.jpg");
   overflow: hidden;
 
   background-size: cover;
 }
+
 .trExDiv6 {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 247, 255, 0.349),
-      rgba(0, 217, 255, 0.281)
-    ),
+      rgba(0, 217, 255, 0.281)),
     url("../../assets/images/exercise6.jpg");
   overflow: hidden;
 
@@ -137,31 +142,37 @@
 .gridDiv div {
   position: relative;
 }
+
 .overLayExerciseTitle1 {
   position: absolute;
   top: 190px;
   left: 20px;
 }
+
 .overLayExerciseTitle1 p {
   font-size: 16px;
   color: black;
   font-family: "Inter", sans-serif;
 }
+
 .overLayExerciseTitle2 {
   position: absolute;
   top: 20px;
   left: 20px;
 }
+
 .overLayExerciseTitle2 p {
   color: white;
   font-size: 18px;
   font-family: "Inter", sans-serif;
 }
+
 .overLayExerciseTitle3 {
   position: absolute;
   top: 150px;
   left: 20px;
 }
+
 .overLayExerciseTitle3 p {
   font-size: 16px;
   left: 16px;
@@ -169,11 +180,13 @@
   font-family: "Inter", sans-serif;
   color: white;
 }
+
 .overLayExerciseTitle4 {
   position: absolute;
   top: 20px;
   left: 250px;
 }
+
 .overLayExerciseTitle4 p {
   font-size: 16px;
   padding-right: 10px;
@@ -181,12 +194,14 @@
 
   font-family: "Inter", sans-serif;
 }
+
 .overLayExerciseTitle5,
 .overLayExerciseTitle6 {
   position: absolute;
   top: 150px;
   left: 20px;
 }
+
 .overLayExerciseTitle5 .miniDeviceHide,
 .overLayExerciseTitle6 .miniDeviceHide {
   font-size: 16px;

@@ -1,38 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @media screen and (max-width: 576px) {
   body {
     margin: 0px;
     width: 100%;
   }
+
   header {
     height: auto;
-    background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.527),
-      rgba(128, 128, 128, 0.616),
-      rgba(0, 0, 0, 0.425)
-    );
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.527),
+        rgba(128, 128, 128, 0.616),
+        rgba(0, 0, 0, 0.425));
     position: relatives;
     width: auto;
   }
+
   .navDiv2 {
     display: none;
   }
+
   .miniHide {
     position: relative;
     display: block;
     background-color: black;
     background-size: contain;
   }
+
   .miniHide img {
     width: 32px;
     background-size: cover;
   }
+
   .miniHide button {
     border: none;
   }
+
   .nav ul {
     border: none;
   }
+
   /* Full Div work */
   .bannerDiv {
     display: flex;
@@ -40,6 +46,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .bannerP {
     width: 430px;
     font-size: 2rem;
@@ -50,6 +57,7 @@
     border: none;
     display: block;
   }
+
   .mobileList {
     position: absolute;
     top: 100px;
@@ -59,6 +67,7 @@
     height: auto;
     background-color: rgba(0, 0, 0, 0.61);
   }
+
   .mobileList h3 {
     color: white;
     font-family: "Inter", sans-serif;
@@ -66,6 +75,7 @@
     margin-top: 20px;
     line-height: 0px;
   }
+
   .mobileList ul {
     margin-top: 40px;
     display: flex;
@@ -74,6 +84,7 @@
     align-items: center;
     padding: 10px;
   }
+
   .mobileList li {
     list-style: none;
     text-align: center;
@@ -81,11 +92,13 @@
     font-family: "Inter", sans-serif;
     color: white;
   }
+
   .mobileList li button {
     border: none;
     color: white;
     background: none;
   }
+
   nav ul {
     width: 200px;
     /* border: 1px solid red; */

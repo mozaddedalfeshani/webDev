@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 .bmiTitleSection {
   display: flex;
 
@@ -13,6 +15,7 @@
   justify-content: center;
   width: 50%;
 }
+
 .bmiDiv1 div {
   padding: 0px;
   width: 400px;
@@ -22,12 +25,14 @@
 .bmiDiv2 {
   width: 50%;
 }
+
 .bmiTitleDiv h1 {
   font-family: "Inter", sans-serif;
   font-size: 4rem;
   line-height: 0px;
   text-align: start;
 }
+
 .bmiTitleDiv p {
   font-family: "inter", sans-serif;
   font-size: 1rem;
@@ -55,15 +60,18 @@
   border: 1px solid black;
   margin-right: 30px;
 }
+
 .bmiDiv1 div h1 {
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 500px;
 }
+
 .bmiDiv1 table {
   border: 1px solid black;
 }
-.bmiDiv1 table tr > td {
+
+.bmiDiv1 table tr>td {
   padding: 0.125rem;
   border: 0.5px solid black;
   margin: 0px;
@@ -71,11 +79,13 @@
   padding: 10px;
   font-size: 1.525rem;
 }
+
 .bmiDiv2 input {
   background-color: rgba(90, 78, 78, 0.288);
   height: 40px;
   border-radius: 25px;
 }
+
 .bmiDiv2 input,
 input::placeholder {
   margin: 5px;
@@ -86,6 +96,7 @@ input::placeholder {
   border: none;
   width: 35%;
 }
+
 #sexSelect,
 #sexSelect::placeholder {
   background-color: rgba(95, 92, 92, 0.644);
@@ -98,6 +109,7 @@ input::placeholder {
   padding-right: 50px;
   color: rgba(255, 255, 255, 0.712);
 }
+
 #Selectfactor,
 #Selectfactor::placeholder {
   background-color: rgba(95, 92, 92, 0.644);
@@ -110,6 +122,7 @@ input::placeholder {
   padding-right: 50px;
   color: rgba(255, 255, 255, 0.712);
 }
+
 .bmiDiv2 button {
   position: static;
   width: 30%;
