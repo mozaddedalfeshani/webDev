@@ -3,34 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FAQs</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        :hover p,
-        .flowOverButton {
-            font-size: 123px;
-            display: block;
+        body {
+            font-family: sans-serif;
+            margin: 2rem;
         }
 
-        .div1 {
-            display: none;
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
         }
 
-        .maindiv:hover .div1 {
-            display: block;
+        .faq {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        details {
+            margin-bottom: 1rem;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        summary:focus {
+            outline: none;
+        }
+
+        details[open] summary {
+            background-color: #eee;
+        }
+
+        p {
+            margin: 0.5rem 0;
         }
     </style>
 </head>
 <body>
-    <p class="df">loremsd fsd fsd f</p>
-    <div class="maindiv">
-        <div class="div1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum minus ullam fuga id possimus
-            voluptates debitis sit repellat, placeat dolor.</div>
-        <div class="div2">sdfjsdklflmsdfi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quas harum rem,
-            corporis praesentium dicta minus architecto exercitationem sapiente distinctio. Rerum earum, nisi minus
-            voluptas quae tenetur? In, voluptas provident?</div>
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq">
+        <details>
+            <summary>What is finesse?</summary>
+            <p>Finesse refers to a quality of elegance, precision, and skill. It suggests doing something with a
+                delicate and graceful touch.</p>
+        </details>
+        <details>
+            <summary>What kind of website sections can I add?</summary>
+            <p>You can add various sections like About Us, Services/Products, Portfolio, Testimonials, Contact, Blog,
+                Team, Careers, and FAQs (like this one!).</p>
+        </details>
+        <details>
+            <summary>How do I create a user-friendly website?</summary>
+            <p>Focus on a clean and elegant design, mobile-friendliness, and easy navigation with clear menus.</p>
+        </details>
     </div>
-    </div>
-    </select>
-</body>
 
+</body>
 </html>

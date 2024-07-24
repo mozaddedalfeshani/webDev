@@ -1,0 +1,44 @@
+        body {
+            font-family: sans-serif;
+            margin: 2rem;
+        }
+
+        .faqSection {
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.158);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .faq {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        details {
+            margin-bottom: 1rem;
+            color: rgba(255, 252, 252, 0.411);
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+
+        summary:focus {
+            outline: none;
+            color: white;
+        }
+
+        details[open] summary {
+            background-color: #eee;
+        }
+
+        p {
+            margin: 0.5rem 0;
+        }
